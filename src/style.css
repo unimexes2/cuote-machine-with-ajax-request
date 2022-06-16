@@ -1,0 +1,61 @@
+#bod {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: OldLace;
+}
+
+.emptydiv {
+  padding: 2vh;
+  display: flex;
+  width: 40%;
+  height: 20vh;
+  margin: auto;
+  justify-content: space-between;
+}
+.wrapper {
+  display: flex;
+  height: 40vh;
+  width: 40%;
+  margin-top: 60px;
+  padding: 1em;
+  background: LightGray;
+  margin: auto;
+  border: 5px solid MidnightBlue;
+  border-radius: 3vh;
+  overflow: auto;
+}
+#text-main {
+  font-size: 1em;
+  margin: 2px;
+}
+
+#btn {
+  border: 3px solid white;
+  width:70px;
+  height:30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding:1px; 
+  color:white;
+  border-radius: 3px;
+  background-color:blue;
+font-size:small;
+  
+}
+#butmore {
+  display: flex;
+  width: 20%;
+ justify-content: flex-end;
+  
+ 
+}
+#buttw {
+ 
+  width: 35px;
+  height:35px;
+  display: flex;
+ 
+}
+
