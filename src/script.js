@@ -1,8 +1,7 @@
 var q;
 let citation = document.getElementById("text-main");
-//let autor=document.getElementById("");
 let docList = document.getElementById("btn");
-// console.log(disp[0][1], docList);
+
 
 function mainF() {
   async function getQuotes() {
@@ -57,7 +56,7 @@ function setRandomColor() {
       console.log("It`s an error in sourse destination");
     }
   );
-  // console.log(obj);
+
 }
 
 docList.addEventListener("click", () => mainF());
